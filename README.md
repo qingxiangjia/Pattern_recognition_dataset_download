@@ -61,6 +61,11 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         其中20个类别分别为： switch light、up the stairs、pack backpack、ride a bike、turn around、fold clothes、hug somebody、long jump、move the chair、open the umbrella、orchestra conducting、rope skipping、shake hands、squat、swivel、tie shoes 、tie hair、twist waist、wear hat、down the stairs。
         本次所用数据集是该链接中所提到数据集的子集。
         注意：需要自行把训练数据划分为训练集和验证集。
+### Example Videos
+
+| Depth | Thermal-IR | RGB |
+|:-----------:|:----------------:|:---------:|
+| ![Depth Output](figs/output_depth.gif) | ![IR Output](figs/output_ir.gif) | ![RGB Output](figs/output_rgb.gif) |
 
 ##### 提交结果
         训练完成后，利用提供的“generate_submission.py”文件，生成在测试集上的预测结果, 文件格式为.csv，命名为 "submission.csv"
