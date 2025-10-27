@@ -65,7 +65,7 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 
 | Depth | Thermal-IR | RGB |
 |:-----------:|:----------------:|:---------:|
-| ![Depth Output](figs/output_depth.gif) | ![IR Output](figs/output_ir.gif) | ![RGB Output](figs/output_rgb.gif) |
+| ![Depth Output](![output_depth](https://github.com/user-attachments/assets/3e96d3c7-89ed-4721-b7e0-fa7a8d39bc87)) | ![IR Output](![output_ir](https://github.com/user-attachments/assets/68b3cce2-4674-4990-9dcc-26717a94c2ac)) | ![RGB Output](![![output_rgb](https://github.com/user-attachments/assets/22b45a90-51ea-4a82-8334-8dd54be879fa)])
 
 ##### 提交结果
         训练完成后，利用提供的“generate_submission.py”文件，生成在测试集上的预测结果, 文件格式为.csv，命名为 "submission.csv"
