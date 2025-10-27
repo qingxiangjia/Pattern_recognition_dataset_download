@@ -1,5 +1,5 @@
 # Pattern_recognition_dataset_download 
-# 模式识别数据集介绍及下载链接
+# 模式识别大作业数据集介绍及下载链接
 
 ## 题目一、目标检测任务（模式识别方法在驾驶员行为目标检测上的应用）
 评价指标采用Average Precision(AP)、Recall、mAP@0.5、mAP@0.5:0.95等
