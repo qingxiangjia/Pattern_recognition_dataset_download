@@ -29,7 +29,8 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         Nvidia Geforce GTX 1080Ti （11GB显存） 显卡，使用标准yolov8n模型，在提供的数据集上，训练和验证150epoch 大约需要3小时，参考结果
         metrics/precision(B)	      metrics/recall(B)	       metrics/mAP50(B)	    metrics/mAP50-95(B)
               0.94429	                      0.89767	             0.94152	       0.65009
-![Uploading results.png…]()
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/3e587f1e-7662-4ce0-8188-3a8406c606b0" />
+
 
 ##### 如果需要其他格式的标注数据，您可以使用相关代码进行转换，网上已有许多现成的工具可用于此目的。
 ##### 数据集应用：该数据集可用于训练物体检测模型，适用于 YOLO 系列算法或其他常见的检测框架。
