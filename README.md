@@ -46,7 +46,49 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 
 ## 题目三、多模态行为识别（模式识别跨校课程竞赛）
 
+##### 比赛名称 多模态行为识别
+##### 参赛链接待上传
+##### 允许提交次数 无限次
+##### 提交截止时间 2025-12-31 00:00:01
+##### 比赛任务设置
+        学生需要上传，利用"generate_submission.py"生成需提交的"submission.csv"文件
+##### 比赛说明
+        提供的多模态行为识别数据集包含700组多模态视频（其中500组用于训练，200组用于测试），涵盖20个动作类别。评测时会计算在测试集上的Top-1、Top-5指标并以Top-1为依据进行排名。
+##### 任务描述
+##### 基于MMAR数据集的多模态行为识别，MMAR数据集包含三种模态（RGB、Depth、Infrared）对齐的20种行为类别，每种行为类别大约30到70个视频序列，每个视频序列有100到200帧，需要根据视频的三个不同模态的特征，用算法识别该视频序列属于哪一个行为类别。
 
+##### 数据说明
+        任务所使用图像数据集，训练集每个模态包含500个视频序列，被分为20类，每个类别有超过30个的视频序列；测试集每个模态包含200个视频序列，同样包含20个类。
+
+        其中20个类别分别为： switch light、up the stairs、pack backpack、ride a bike、turn around、fold clothes、hug somebody、long jump、move the chair、open the umbrella、orchestra conducting、rope skipping、shake hands、squat、swivel、tie shoes 、tie hair、twist waist、wear hat、down the stairs。
+
+        数据集详细介绍以及baseline代码请参考：https://github.com/happylinze/multi-modal-tsm 。
+
+        本次所用数据集是该链接中所提到数据集的子集。
+        注意：需要自行把训练数据划分为训练集和验证集。
+
+##### 提交结果
+        训练完成后，利用提供的“generate_submission.py”文件，生成在测试集上的预测结果, 文件格式为.csv，命名为 "submission.csv"
+        文件内的字段需要按照以下指定格式写入。（video id, predicted Top-5 classes）
+        
+##### 结果文件要求：
+        1.每个类别的行数和测试集原始数据行数应一 一对应，不可乱序。
+        
+        2.输出结果应检查是否和测试集数量一样的200行的数据，否则成绩无效。
+        
+        3.输出结果文件命名为submission.csv，文件中样例如下(第一列是video id，第二列为predicted Top-5 classes的预测结果)：
+        
+        |video_id|prediction   
+        |1     |16 11 12 5 18 
+        |2     |15 1 19 7 4  
+        |3     |3 7 9 18 4
+        |4     |11 4 16 12 5
+        |5     |7 3 18 9 11
+        |6     |15 5 1 19 2
+        |7     |8 13 6 10 17
+        |8     |9 2 18 5 16
+        |9     |4 15 18 3 11
+        ......
 
 
 
