@@ -57,13 +57,9 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 ##### 任务描述
 ##### 基于MMAR数据集的多模态行为识别，MMAR数据集包含三种模态（RGB、Depth、Infrared）对齐的20种行为类别，每种行为类别大约30到70个视频序列，每个视频序列有100到200帧，需要根据视频的三个不同模态的特征，用算法识别该视频序列属于哪一个行为类别。
 
-##### 数据说明
+##### 数据说明  数据集详细介绍以及baseline代码请参考：https://github.com/happylinze/multi-modal-tsm 。
         任务所使用图像数据集，训练集每个模态包含500个视频序列，被分为20类，每个类别有超过30个的视频序列；测试集每个模态包含200个视频序列，同样包含20个类。
-
         其中20个类别分别为： switch light、up the stairs、pack backpack、ride a bike、turn around、fold clothes、hug somebody、long jump、move the chair、open the umbrella、orchestra conducting、rope skipping、shake hands、squat、swivel、tie shoes 、tie hair、twist waist、wear hat、down the stairs。
-
-        数据集详细介绍以及baseline代码请参考：https://github.com/happylinze/multi-modal-tsm 。
-
         本次所用数据集是该链接中所提到数据集的子集。
         注意：需要自行把训练数据划分为训练集和验证集。
 
@@ -73,11 +69,8 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         
 ##### 结果文件要求：
         1.每个类别的行数和测试集原始数据行数应一 一对应，不可乱序。
-        
         2.输出结果应检查是否和测试集数量一样的200行的数据，否则成绩无效。
-        
         3.输出结果文件命名为submission.csv，文件中样例如下(第一列是video id，第二列为predicted Top-5 classes的预测结果)：
-        
         |video_id|prediction   
         |1     |16 11 12 5 18 
         |2     |15 1 19 7 4  
