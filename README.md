@@ -59,43 +59,48 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         100epoch结果：                                        1000epoch结果：
         classes          IoU      nIoU                classes          IoU      nIoU
 		--------------------------------				--------------------------------
-		road          : 0.887      nan					road          : 0.887      nan
-		sidewalk      : 0.549      nan					sidewalk      : 0.549      nan
-		building      : 0.773      nan					building      : 0.773      nan
-		wall          : 0.228      nan					wall          : 0.228      nan
-		fence         : 0.234      nan					fence         : 0.234      nan
-		pole          : 0.314      nan					pole          : 0.314      nan
-		traffic light : 0.199      nan					traffic light : 0.199      nan
-		traffic sign  : 0.332      nan					traffic sign  : 0.332      nan
-		vegetation    : 0.799      nan					vegetation    : 0.799      nan
-		terrain       : 0.386      nan					terrain       : 0.386      nan
-		sky           : 0.838      nan					sky           : 0.838      nan
-		person        : 0.476    0.380					person        : 0.476    0.380
-		rider         : 0.199    0.095					rider         : 0.199    0.095
-		car           : 0.797    0.701					car           : 0.797    0.701
-		truck         : 0.065    0.012					truck         : 0.065    0.012
-		bus           : 0.230    0.142					bus           : 0.230    0.142
-		train         : 0.066    0.057					train         : 0.066    0.057
-		motorcycle    : 0.145    0.077					motorcycle    : 0.145    0.077
-		bicycle       : 0.479    0.272					bicycle       : 0.479    0.272
+		road          : 0.887      nan					road          : 0.928      nan
+		sidewalk      : 0.549      nan					sidewalk      : 0.656      nan
+		building      : 0.773      nan					building      : 0.835      nan
+		wall          : 0.228      nan					wall          : 0.168      nan
+		fence         : 0.234      nan					fence         : 0.296      nan
+		pole          : 0.314      nan					pole          : 0.370      nan
+		traffic light : 0.199      nan					traffic light : 0.287      nan
+		traffic sign  : 0.332      nan					traffic sign  : 0.491      nan
+		vegetation    : 0.799      nan					vegetation    : 0.862      nan
+		terrain       : 0.386      nan					terrain       : 0.483      nan
+		sky           : 0.838      nan					sky           : 0.881      nan
+		person        : 0.476    0.380					person        : 0.602    0.453
+		rider         : 0.199    0.095					rider         : 0.351    0.174
+		car           : 0.797    0.701					car           : 0.849    0.750
+		truck         : 0.065    0.012					truck         : 0.143    0.081
+		bus           : 0.230    0.142					bus           : 0.172    0.097
+		train         : 0.066    0.057					train         : 0.036    0.046
+		motorcycle    : 0.145    0.077					motorcycle    : 0.207    0.134
+		bicycle       : 0.479    0.272					bicycle       : 0.601    0.384
 		--------------------------------				--------------------------------
-		Score Average : 0.421    0.217					Score Average : 0.421    0.217
+		Score Average : 0.421    0.217					Score Average : 0.485    0.265
 		--------------------------------				--------------------------------
 		
 		
 		categories       IoU      nIoU					categories       IoU      nIoU
 		--------------------------------				--------------------------------
-		flat          : 0.898      nan					flat          : 0.898      nan
-		construction  : 0.774      nan					construction  : 0.774      nan
-		object        : 0.349      nan					object        : 0.349      nan
-		nature        : 0.805      nan					nature        : 0.805      nan
-		sky           : 0.838      nan					sky           : 0.838      nan
-		human         : 0.515    0.421					human         : 0.515    0.421
-		vehicle       : 0.787    0.680					vehicle       : 0.787    0.680
+		flat          : 0.898      nan					flat          : 0.942      nan
+		construction  : 0.774      nan					construction  : 0.839      nan
+		object        : 0.349      nan					object        : 0.424      nan
+		nature        : 0.805      nan					nature        : 0.863      nan
+		sky           : 0.838      nan					sky           : 0.881      nan
+		human         : 0.515    0.421					human         : 0.648    0.488
+		vehicle       : 0.787    0.680					vehicle       : 0.825    0.721
 		--------------------------------				--------------------------------
-		Score Average : 0.710    0.551					Score Average : 0.710    0.551
+		Score Average : 0.710    0.551					Score Average : 0.774    0.605
 		--------------------------------				--------------------------------
 
+| 图片名 | cityspaces数据集子集 100epoch验证集效果 | cityspaces数据集子集 1000epoch验证集效果 |
+|:-----------:|:----------------:|:---------:|
+| frankfurt_000001_004327_overlayed.png | <img width="1024" height="512" alt="frankfurt_000001_004327_overlayed" src="https://github.com/user-attachments/assets/11d90630-da2d-44e4-bfe1-b2ce6ade0389" /> | <img width="1024" height="512" alt="frankfurt_000001_004327_overlayed" src="https://github.com/user-attachments/assets/c749ead4-95d5-4438-9601-cdea9b0b00dd" />
+| lindau_000049_000019_overlayed.png | <img width="1024" height="512" alt="lindau_000049_000019_overlayed" src="https://github.com/user-attachments/assets/a71e697c-0ca1-495d-ad61-8ab50da7a135" /> | <img width="1024" height="512" alt="lindau_000049_000019_overlayed" src="https://github.com/user-attachments/assets/2c671551-103d-43e9-b420-7d8a914796f0" />
+| munster_000036_000019_overlayed.png | <img width="1024" height="512" alt="munster_000036_000019_overlayed" src="https://github.com/user-attachments/assets/04bdba9e-062d-4279-8c3d-173358a44812" /> | <img width="1024" height="512" alt="munster_000036_000019_overlayed" src="https://github.com/user-attachments/assets/f6a6e292-0ace-46e3-bd70-c30e65a2c833" />
 
 ##### 原始cityspaces数据集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的原始cityspaces数据集，训练和验证1000epoch 大约需要55个小时，训练较为耗时不推介使用
         100epoch结果：                                        580epoch结果：
