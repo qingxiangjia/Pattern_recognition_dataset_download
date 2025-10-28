@@ -1,4 +1,4 @@
-# Pattern_recognition_dataset_download 
+<img width="640" height="480" alt="epoch_losses_train" src="https://github.com/user-attachments/assets/a408bb7d-a548-45fe-8604-d2c59c033e63" /># Pattern_recognition_dataset_download 
 # 模式识别大作业数据集介绍及下载链接
 
 ## 题目一、目标检测任务（模式识别方法在驾驶员行为目标检测上的应用）
@@ -96,9 +96,9 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         --------------------------------                --------------------------------
 | 图片名 | 100epoch验证集效果 | 580epoch验证集效果 |
 |:-----------:|:----------------:|:---------:|
-| frankfurt_000000_012868_overlayed.png | <img width="1024" height="512" alt="frankfurt_000000_012868_overlayed" src="https://github.com/user-attachments/assets/0470b052-656a-4672-9221-5d8417e57d8f" /> | 
-| lindau_000022_000019_overlayed.png | <img width="1024" height="512" alt="lindau_000022_000019_overlayed" src="https://github.com/user-attachments/assets/5fcab31d-f4e1-47ef-bcab-aefac2d6521f" /> | 
-| munster_000023_000019_overlayed.png | <img width="1024" height="512" alt="munster_000023_000019_overlayed" src="https://github.com/user-attachments/assets/7a5e6b45-9839-430b-8eb4-2ea242ffbdef" /> | 
+| frankfurt_000000_012868_overlayed.png | <img width="1024" height="512" alt="frankfurt_000000_012868_overlayed" src="https://github.com/user-attachments/assets/0470b052-656a-4672-9221-5d8417e57d8f" /> | <img width="1024" height="512" alt="frankfurt_000000_012868_overlayed" src="https://github.com/user-attachments/assets/3e866aec-6e27-4b51-8828-b9fd8b3f9aa2" />
+| lindau_000022_000019_overlayed.png | <img width="1024" height="512" alt="lindau_000022_000019_overlayed" src="https://github.com/user-attachments/assets/5fcab31d-f4e1-47ef-bcab-aefac2d6521f" /> | <img width="1024" height="512" alt="lindau_000022_000019_overlayed" src="https://github.com/user-attachments/assets/0a316572-0a9e-4cd6-9e7d-7ad21c5f6577" />
+| munster_000023_000019_overlayed.png | <img width="1024" height="512" alt="munster_000023_000019_overlayed" src="https://github.com/user-attachments/assets/7a5e6b45-9839-430b-8eb4-2ea242ffbdef" /> | <img width="1024" height="512" alt="munster_000023_000019_overlayed" src="https://github.com/user-attachments/assets/f288c17c-b3ab-4ccc-a647-ffd0ecbea0c7" />
 
 ##### Cityscapes 7类到19类映射
 
