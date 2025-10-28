@@ -54,11 +54,11 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         
         
         原始cityspaces数据集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的原始cityspaces数据集，训练和验证1000epoch 大约需要55个小时，训练较为耗时不推介使用
-        100epoch结果：
-        classes          IoU      nIoU
-        --------------------------------
-        road          : 0.931      nan
-        sidewalk      : 0.693      nan
+        100epoch结果：                                        580epoch结果：
+        classes          IoU      nIoU                classes          IoU      nIoU
+        --------------------------------                --------------------------------
+        road          : 0.931      nan                road          : 0.925      nan
+        sidewalk      : 0.693      nan                sidewalk      : 0.715      nan
         building      : 0.850      nan
         wall          : 0.576      nan
         fence         : 0.394      nan
@@ -95,45 +95,47 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         --------------------------------
         
 
-        580epoch结果：
-        classes          IoU      nIoU
-        --------------------------------
-        road          : 0.931      nan
-        sidewalk      : 0.693      nan
-        building      : 0.850      nan
-        wall          : 0.576      nan
-        fence         : 0.394      nan
-        pole          : 0.387      nan
-        traffic light : 0.389      nan
-        traffic sign  : 0.546      nan
-        vegetation    : 0.854      nan
-        terrain       : 0.576      nan
-        sky           : 0.884      nan
-        person        : 0.586    0.444
-        rider         : 0.330    0.173
-        car           : 0.862    0.784
-        truck         : 0.269    0.211
-        bus           : 0.666    0.503
+        
+        
+        
+        
+        
+        building      : 0.861      nan
+        wall          : 0.586      nan
+        fence         : 0.392      nan
+        pole          : 0.389      nan
+        traffic light : 0.385      nan
+        traffic sign  : 0.603      nan
+        vegetation    : 0.843      nan
+        terrain       : 0.531      nan
+        sky           : 0.831      nan
+        person        : 0.623    0.465
+        rider         : 0.438    0.208
+        car           : 0.910    0.757
+        truck         : 0.726    0.497
+        bus           : 0.821    0.609
         train         : 0.000    0.000
-        motorcycle    : 0.275    0.106
-        bicycle       : 0.543    0.406
+        motorcycle    : 0.401    0.155
+        bicycle       : 0.529    0.374
         --------------------------------
-        Score Average : 0.559    0.328
+        Score Average : 0.606    0.383
         --------------------------------
         
         
         categories       IoU      nIoU
         --------------------------------
-        flat          : 0.944      nan
-        construction  : 0.858      nan
-        object        : 0.450      nan
-        nature        : 0.877      nan
-        sky           : 0.884      nan
-        human         : 0.627    0.499
-        vehicle       : 0.865    0.772
+        flat          : 0.940      nan
+        construction  : 0.866      nan
+        object        : 0.459      nan
+        nature        : 0.875      nan
+        sky           : 0.831      nan
+        human         : 0.645    0.504
+        vehicle       : 0.883    0.746
         --------------------------------
-        Score Average : 0.786    0.635
+        Score Average : 0.786    0.625
         --------------------------------
+
+        
 
 
 
