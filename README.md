@@ -39,7 +39,7 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 
 ## 题目二、图像语义分割任务（模式识别方法在城市街景分割上的应用）
 
-##### cityspaces数据集子集（推介使用）
+##### cityspaces数据集子集（推介使用）通过网盘分享的文件：cityscapes_sub_dataset.zip  链接: https://pan.baidu.com/s/1Uag1cw4GcMFSD4tKjZaeMQ?pwd=h7xp 提取码: h7xp 
 
 ##### 原始cityspaces数据集下载地址（不推介使用太大） 通过网盘分享的文件：cityscapes.zip   链接: https://pan.baidu.com/s/1_zqsRd7Wy4AW9gbG-Lf9OA?pwd=49nj 提取码: 49nj 
  
@@ -54,7 +54,7 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 ##### 训练时间开销及参考结果：
         1080显卡，2080,3060,4060,3090,4090，A100等显卡都可以运行，可以根据自己显卡参数和配置适量调整模型的输入参数和数据集参数
         IoU是像素级语义分割指标（不区分个体），nIoU是实例级分割指标（区分每个独立目标，按实例大小加权）
-        cityspaces数据集子集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的cityspaces数据集子集，训练和验证1000epoch 大约需要6个小时，推介使用这个
+        cityspaces数据集子集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的cityspaces数据集子集，训练和验证1000epoch 大约需要5.5个小时，推介使用这个
         
 
         原始cityspaces数据集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的原始cityspaces数据集，训练和验证1000epoch 大约需要55个小时，训练较为耗时不推介使用
