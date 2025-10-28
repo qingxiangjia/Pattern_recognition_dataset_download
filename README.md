@@ -96,9 +96,9 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         --------------------------------                --------------------------------
 | 图片名 | 100epoch验证集效果 | 580epoch验证集效果 |
 |:-----------:|:----------------:|:---------:|
-|  |  | 
-|  |  | 
-|  |  | 
+| frankfurt_000000_012868_overlayed.png | <img width="1024" height="512" alt="frankfurt_000000_012868_overlayed" src="https://github.com/user-attachments/assets/0470b052-656a-4672-9221-5d8417e57d8f" /> | 
+| lindau_000022_000019_overlayed.png | <img width="1024" height="512" alt="lindau_000022_000019_overlayed" src="https://github.com/user-attachments/assets/5fcab31d-f4e1-47ef-bcab-aefac2d6521f" /> | 
+| munster_000023_000019_overlayed.png | <img width="1024" height="512" alt="munster_000023_000019_overlayed" src="https://github.com/user-attachments/assets/7a5e6b45-9839-430b-8eb4-2ea242ffbdef" /> | 
 
 ##### Cityscapes 7类到19类映射
 
