@@ -50,9 +50,10 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 
 ##### 训练时间开销及参考结果：
         1080显卡，2080,3060,4060,3090,4090，A100等显卡都可以运行，可以根据自己显卡参数和配置适量调整模型的输入参数和数据集参数
+        IoU是像素级语义分割指标（不区分个体），nIoU是实例级分割指标（区分每个独立目标，按实例大小加权）
         cityspaces数据集子集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的cityspaces数据集子集，训练和验证1000epoch 大约需要6个小时，推介使用这个
         
-        
+
         原始cityspaces数据集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的原始cityspaces数据集，训练和验证1000epoch 大约需要55个小时，训练较为耗时不推介使用
         100epoch结果：                                        580epoch结果：
         classes          IoU      nIoU                classes          IoU      nIoU
@@ -93,10 +94,26 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         --------------------------------                --------------------------------
         Score Average : 0.786    0.635                Score Average : 0.786    0.625
         --------------------------------                --------------------------------
-        
+| 图片名 | 100epoch验证集效果 | 580epoch验证集效果 |
+|:-----------:|:----------------:|:---------:|
+|  |  | 
+|  |  | 
+|  |  | 
 
-        
+##### Cityscapes 7类到19类映射
 
+| 类别组 (7类) | 包含的具体类别 (19类) 
+|:-----------:|:----------------:|
+| flat |  road, sidewalk
+| construction |  building, wall, fence
+| object |  pole, traffic light, traffic sign
+| nature |  vegetation, terrain
+| sky |  sky
+| human |  person, rider
+| vehicle | car, truck, bus, train, motorcycle, bicycle
+	
+	
+	
 
 ## 题目三、多模态行为识别（模式识别跨校课程竞赛）
 
