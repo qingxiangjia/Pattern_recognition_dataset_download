@@ -11,9 +11,9 @@
         测试集：997 张图像
 ##### 数据总大小：约 350MB
 ##### 标签类别 本数据集包含以下 3 个类别：
-        Smoke：吸烟
-        Phone：手机
-        Drink：喝水
+        Smoke
+        Phone
+        Drink
 ##### 标签类别的格式符合 YOLOv8 标注标准，具体为：
 nc: 3 # 标签类别个数
 names: ['Smoke', 'Phone', 'Drink'] # 标签名
