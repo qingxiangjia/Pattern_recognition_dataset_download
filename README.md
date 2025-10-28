@@ -54,10 +54,50 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 ##### 训练时间开销及结果参考：
         1080显卡，2080,3060,4060,3090,4090，A100等显卡都可以运行，可以根据自己显卡参数和配置适量调整模型的输入参数和数据集参数
         IoU是像素级语义分割指标（不区分个体），nIoU是实例级分割指标（区分每个独立目标，按实例大小加权）
-        cityspaces数据集子集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的cityspaces数据集子集，训练和验证1000epoch 大约需要5.5个小时，推介使用这个
         
+##### cityspaces数据集子集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的cityspaces数据集子集，训练和验证1000epoch 大约需要5.5个小时，推介使用这个
+        100epoch结果：                                        1000epoch结果：
+        classes          IoU      nIoU                classes          IoU      nIoU
+		--------------------------------				--------------------------------
+		road          : 0.887      nan					road          : 0.887      nan
+		sidewalk      : 0.549      nan					sidewalk      : 0.549      nan
+		building      : 0.773      nan					building      : 0.773      nan
+		wall          : 0.228      nan					wall          : 0.228      nan
+		fence         : 0.234      nan					fence         : 0.234      nan
+		pole          : 0.314      nan					pole          : 0.314      nan
+		traffic light : 0.199      nan					traffic light : 0.199      nan
+		traffic sign  : 0.332      nan					traffic sign  : 0.332      nan
+		vegetation    : 0.799      nan					vegetation    : 0.799      nan
+		terrain       : 0.386      nan					terrain       : 0.386      nan
+		sky           : 0.838      nan					sky           : 0.838      nan
+		person        : 0.476    0.380					person        : 0.476    0.380
+		rider         : 0.199    0.095					rider         : 0.199    0.095
+		car           : 0.797    0.701					car           : 0.797    0.701
+		truck         : 0.065    0.012					truck         : 0.065    0.012
+		bus           : 0.230    0.142					bus           : 0.230    0.142
+		train         : 0.066    0.057					train         : 0.066    0.057
+		motorcycle    : 0.145    0.077					motorcycle    : 0.145    0.077
+		bicycle       : 0.479    0.272					bicycle       : 0.479    0.272
+		--------------------------------				--------------------------------
+		Score Average : 0.421    0.217					Score Average : 0.421    0.217
+		--------------------------------				--------------------------------
+		
+		
+		categories       IoU      nIoU					categories       IoU      nIoU
+		--------------------------------				--------------------------------
+		flat          : 0.898      nan					flat          : 0.898      nan
+		construction  : 0.774      nan					construction  : 0.774      nan
+		object        : 0.349      nan					object        : 0.349      nan
+		nature        : 0.805      nan					nature        : 0.805      nan
+		sky           : 0.838      nan					sky           : 0.838      nan
+		human         : 0.515    0.421					human         : 0.515    0.421
+		vehicle       : 0.787    0.680					vehicle       : 0.787    0.680
+		--------------------------------				--------------------------------
+		Score Average : 0.710    0.551					Score Average : 0.710    0.551
+		--------------------------------				--------------------------------
 
-        原始cityspaces数据集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的原始cityspaces数据集，训练和验证1000epoch 大约需要55个小时，训练较为耗时不推介使用
+
+##### 原始cityspaces数据集：Nvidia Geforce GTX 3090Ti （24GB显存） 显卡，使用标准deeplabv3+，骨干网络resnet18模型，在提供的原始cityspaces数据集，训练和验证1000epoch 大约需要55个小时，训练较为耗时不推介使用
         100epoch结果：                                        580epoch结果：
         classes          IoU      nIoU                classes          IoU      nIoU
         --------------------------------                --------------------------------
