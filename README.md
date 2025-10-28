@@ -38,7 +38,9 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 
 
 ## 题目二、图像语义分割任务（模式识别方法在城市街景分割上的应用）
-
+##### cityspaces数据集子集（推介使用）
+##### 原始cityspaces数据集下载地址（不推介使用太大） 通过网盘分享的文件：cityscapes.zip   链接: https://pan.baidu.com/s/1_zqsRd7Wy4AW9gbG-Lf9OA?pwd=49nj 提取码: 49nj 
+ 
 ##### 数据集参数
 |  | 原始cityspaces数据集 | cityspaces数据集子集 | 是否有标签 |
 |:-----------:|:----------------:|:---------:|:---------:|
@@ -93,7 +95,7 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
         --------------------------------                --------------------------------
         Score Average : 0.786    0.635                Score Average : 0.786    0.625
         --------------------------------                --------------------------------
-| 图片名 | 100epoch验证集效果 | 580epoch验证集效果 |
+| 图片名 | 原始cityspaces数据集 100epoch验证集效果 | 原始cityspaces数据集 580epoch验证集效果 |
 |:-----------:|:----------------:|:---------:|
 | frankfurt_000000_012868_overlayed.png | <img width="1024" height="512" alt="frankfurt_000000_012868_overlayed" src="https://github.com/user-attachments/assets/0470b052-656a-4672-9221-5d8417e57d8f" /> | <img width="1024" height="512" alt="frankfurt_000000_012868_overlayed" src="https://github.com/user-attachments/assets/3e866aec-6e27-4b51-8828-b9fd8b3f9aa2" />
 | lindau_000022_000019_overlayed.png | <img width="1024" height="512" alt="lindau_000022_000019_overlayed" src="https://github.com/user-attachments/assets/5fcab31d-f4e1-47ef-bcab-aefac2d6521f" /> | <img width="1024" height="512" alt="lindau_000022_000019_overlayed" src="https://github.com/user-attachments/assets/0a316572-0a9e-4cd6-9e7d-7ad21c5f6577" />
