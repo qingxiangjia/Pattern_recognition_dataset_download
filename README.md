@@ -38,7 +38,9 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 
 
 ## 题目二、图像语义分割任务（模式识别方法在城市街景分割上的应用）
+
 ##### cityspaces数据集子集（推介使用）
+
 ##### 原始cityspaces数据集下载地址（不推介使用太大） 通过网盘分享的文件：cityscapes.zip   链接: https://pan.baidu.com/s/1_zqsRd7Wy4AW9gbG-Lf9OA?pwd=49nj 提取码: 49nj 
  
 ##### 数据集参数
