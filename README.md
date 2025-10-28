@@ -1,4 +1,3 @@
-<img width="640" height="480" alt="epoch_losses_train" src="https://github.com/user-attachments/assets/a408bb7d-a548-45fe-8604-d2c59c033e63" /># Pattern_recognition_dataset_download 
 # 模式识别大作业数据集介绍及下载链接
 
 ## 题目一、目标检测任务（模式识别方法在驾驶员行为目标检测上的应用）
