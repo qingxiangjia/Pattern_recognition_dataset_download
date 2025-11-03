@@ -168,7 +168,7 @@ names: ['Smoke', 'Phone', 'Drink'] # 标签名
 ## 题目三、多模态行为识别（模式识别跨校课程竞赛）  （提供百度飞浆 PaddlePaddle 算力）
 
 ##### 比赛名称 多模态行为识别
-##### 参赛链接待上传，请等待
+##### 参赛链接：https://aistudio.baidu.com/aistudio/education/group/invitation/36429?code=U5iyQ3   ，数据集在此链接有介绍
 ##### 允许提交次数 无限次
 ##### 提交截止时间 2025-12-31 00:00:01
 ##### 比赛任务设置
